@@ -49,12 +49,25 @@ footer {
 
 .btn-success {
     margin-right: 10px;
+    margin-top: 10px;
 }
 
 .link-home-nav {
     text-decoration: none;
+    color: white;
 }
 
 a {
     text-decoration: none;
 }
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover, .voltar:hover { text-decoration: none; color: white; }
+
+
+a:active { text-decoration: none; }
